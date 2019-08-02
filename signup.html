@@ -4,12 +4,24 @@
 		<title>Signup Page</title>
 	</head>
 	<body>
+
+		<nav>
+			<ul>
+				<li style="display: inline;"><a href="home.html">Home</a></li>
+				<li style="display: inline;"> <a href="login.html">Login</a> </li>
+				<li style="display: inline;"> <a href="#">Signup</a> </li>
+				<li style="display: inline;"> <a href="table.html">Result Card</a> </li>
+			</ul>
+		</nav>
 		<h1> Registration Page </h1>
 
 		<h3>Please fill out given form to signup.</h3>
 
 		<form>
 			
+			<div>
+				Website: <input type="text" name="website" value="mywebapp" readonly="readonly">
+			</div>
 			<div>
 				<label>Full Name:</label>
 				<input type="text" name="fullname">
@@ -35,13 +47,43 @@
 			</div>
 
 			<div>
+				<h3>Choose your hobbies:</h3>
+				<input type="checkbox" name="circket">Cricket
+				<input type="checkbox" name="social media"> Social media
+				<input type="checkbox" name="gradening"> Gardening
+			</div>
+
+			<div>
+				<h3>Choose your education</h3>
+				<select>
+					<option>Matric</option>
+					<option>Intermediate</option>
+					<option>Bachlor</option>
+					<option>Master</option>
+					<option>PHD</option>
+				</select>
+			</div>
+
+			<div>
+				<h3>Upload Your Photo</h3>
+				<input type="file" name="yourphoto">
+			</div>
+			
+			<div>
+				<h3>About You</h3>
+				<textarea name="about"></textarea>
+			</div>
+			<br>
+			<div>
 				
 				<input type="checkbox" name="terms" checked="checked">
 				<label>I agree with terms.</label>
 			</div>
 			
+			<br>
+			<br>
 			<input type="submit" name="signup" value="Signup">
-			<input type="reset" name="reset">
+			<input type="reset" name="reset" disabled="disabled">
 		</form>
 	</body>
 </html>

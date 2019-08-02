@@ -4,18 +4,28 @@
 	</head>
 
 	<body>
+
+		<nav>
+			<ul>
+				<li style="display: inline;"><a href="home.html">Home</a></li>
+				<li style="display: inline;"> <a href="#">Login</a> </li>
+				<li style="display: inline;"> <a href="signup.html">Signup</a> </li>
+				<li style="display: inline;"> <a href="table.html">Result Card</a> </li>
+			</ul>
+		</nav>
+
 		<h1>Login</h1>
 		<h2>Please Enter your details</h2>
 		<form>
 			
 			<div>
 				<label>Enter Email:</label>
-				<input type="text" name="email">
+				<input type="text" name="email" required="required">
 			</div>
 			
 			<div>
 				<label>Enter Password:</label>
-				<input type="password" name="secretcode">
+				<input type="password" name="secretcode" required="required">
 			</div>
 
 			<button type="submit">Login</button>
