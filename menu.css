@@ -1,0 +1,35 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #333;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+}
+
+a {
+	display: block;
+	color: white;
+	padding: 14px;
+}
+
+#login-menu {
+	color: deeppink;
+}
+
+.subject{
+	color: black;
+}
+
+#subject-heading{
+	font-size: 18px;
+}
